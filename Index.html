@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="icon" href="weather-icon.png">
+</head>
+<body>
+    <header class="header">
+        <h1>Climate Dashboard</h1>
+        <p>Real-Time Weather for Travelers</p>
+    </header>
+
+    <main class="main-content">
+        <section class="weather-search">
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="search-btn">Get Weather</button>
+        </section>
+
+        <section class="weather-info">
+            <div id="weather-result" class="result-box">
+                <h2 id="city-name"></h2>
+                <p id="temperature"></p>
+                <p id="weather-condition"></p>
